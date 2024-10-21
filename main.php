@@ -1,11 +1,16 @@
 <?php
+require_once 'boxManager.php';
 $box = [
     2.5,
     1.5,
-    5.0,
+    4.0,
     1.5,
+    1.0,
+    2.0,
     1.0
 ];
+$boxManager = new BoxManager();
+BoxManager::getCount($box);
 
 
 
